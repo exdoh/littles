@@ -543,7 +543,7 @@ tr.summary-details-excluded { font-style:italic; }
 .link-rss { background:url(../images/i_rss.gif) 0 1px no-repeat; padding-left:18px; white-space:nowrap; }
 .btn-remove { display:block; width:10px; height:10px; font-size:0; line-height:0; background:url(../images/btn_remove.gif) 0 0 no-repeat; text-indent:-999em; overflow:hidden; margin-left: 13px; }
 .btn-remove2 { display:inline-block; color:#8a8989; width:auto; height:28px; background:url(../images/cart-delete.png) 0 0 no-repeat; padding:8px 0 0 41px; }
-.btn-remove2:hover{ background-position:0 -55px!important;color:#000;}
+.btn-remove2:hover{ background-position:0 -67px!important;color:#000;}
 .btn-edit    { display:block; width:11px; height:11px; font-size:0; line-height:0; background:url(../images/btn_edit.gif) 0 0 no-repeat; text-indent:-999em; overflow:hidden; margin-left:2px;}
 .btn-remove:hover {}
 .cards-list dt { margin:5px 0 0; }
@@ -1196,7 +1196,7 @@ tr.summary-details-excluded { font-style:italic; }
 .products-grid .add-to-links {padding-top:7px;}
 .products-grid .add-to-links li { float:left;}
 .products-grid .add-to-links li:first-child{ margin-right:0px;}
-.products-grid button.button{ float:left; margin-right: 114px; }
+.products-grid button.button{ float:left; margin-right: 109px; }
 .add-to-links {float:left;}
 
 /******* Type: List and Grid ********/
@@ -1925,7 +1925,7 @@ tr.summary-details-excluded { font-style:italic; }
 	padding: 7px 0 0 41px;
 	height:25px;
 }
-.cart .cart-edit a:hover{ color:#000; background-position:0 -57px;}
+.cart .cart-edit a:hover{ color:#000; background-position:0 -67px;}
 
 .cart .cart-link-wishlist { margin-bottom:13px; }
 .cart .cart-price { display:block; margin-bottom:17px; margin-top: 10px;}
