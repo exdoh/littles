@@ -148,6 +148,9 @@
 	
 	.video_id {width:500px;margin-left: 30px}
 }
+@media only screen and (max-width: 959px) {
+	.main-banner.num-2 {width: 238px;}
+}
 @media only screen and (max-width: 767px) {
 	body { background-position: 0 0; }
 	.page {max-width:350px; margin:15px auto;}
@@ -226,7 +229,7 @@
 	
 	
 	.products-grid .product-shop,
-	.products-list .product-shop { float:left; margin-left:20px; width:190px; }
+	.products-list .product-shop { float:left; margin-left:20px; margin-top:-30px; }
 	.products-grid button.button,
 	.products-list button.button { margin-right:41px; }
 	.products-grid button.button > span,
@@ -648,4 +651,8 @@
 	.main-banner img {float:right;}
 	.main-banner.num-3 img {float:left;}
 	.video_id {float:left;}
+	.one-colum {margin-right: 0px;}
+}
+@media only screen and (max-width: 320px) {
+	.bg-block-category-view{margin: 30px 50px;}
 }
