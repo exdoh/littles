@@ -530,6 +530,8 @@
 	.sales-guest-form .block-content .form-alt  .input-box {text-align:left !important;}
 	#checkout-step-login .col-2 .form-list input.input-text {width:270px;}
 	.video_id {float:left;}
+	
+	.logo-cat{display: block;text-align: center;width: 100%; margin-bottom: 10px;}
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.page {max-width:475px; }

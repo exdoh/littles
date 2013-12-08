@@ -3028,3 +3028,7 @@ span.opened {background-position: 0 0;}
 .bg-block-category-view{  background: url("../images/cornice_new.jpg");margin: 10px 90px;height: 120px;}
 .block-category-view{margin: 10px 15px;padding-top: 10px;}
 .block-text{margin-bottom: 30px;color:#00ADA8;font-size: 18px;}
+
+.set-logo-cat{margin-bottom: 20px;}
+.logo-cat{display: inline-block;text-align: center;width: 33%;}
+.logo-cat img {border: 2px solid #000;}
