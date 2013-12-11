@@ -136,6 +136,9 @@ ul.sf-menu li li li.sfHover ul {
 	ul.sf-menu li li li.sfHover ul {left:131px;}
 	.sf-menu > li > a > span {font-size:18px; padding-left:15px; padding-right:15px;}
 }
+@media only screen and (max-width: 959px) {
+	.sf-menu > li > a > span {font-size:15px;}
+}
 @media only screen and (max-width: 767px) {
 	.main-menu{padding:0 20px 10px;position: relative;}
 	/* menu icon */

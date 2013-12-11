@@ -28,6 +28,7 @@
 	#block-related .product .product-image {width:50px;}
 	#block-related .product .product-image img {height:50px;width:50px;}
 	
+	.products-grid button.button { margin-right:68px; }
 	.products-grid li.item { margin-right:13px; width:172px; padding-right:12px;}
 	.products-grid li.last { margin-right:0; padding:0;}
 	.products-grid .product-image {height:172px;width:172px;}
@@ -145,6 +146,8 @@
 	
 	.main-banner {width:242px;}
 	.banner-list {display:none;}
+	
+	.product-shop { position:relative; margin-top:0px;}
 	
 	.video_id {width:500px;margin-left: 30px}
 }
@@ -532,6 +535,8 @@
 	.video_id {float:left;}
 	
 	.logo-cat{display: block;text-align: center;width: 100%; margin-bottom: 10px;}
+	
+	.product-sku {margin-top: 26px;}
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.page {max-width:475px; }
