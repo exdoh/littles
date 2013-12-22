@@ -569,14 +569,15 @@ tr.summary-details-excluded { font-style:italic; }
 /* ======================================================================================= */
 
 /* Logo ================================================================================ */
-.logo { float:left; }
+.logo { /*float:left;*/ }
 .header .logo {
-	float:left;
+	/*float:left;*/
 	display:block;
 	text-decoration:none !important;
-	margin-top:8px;
+	margin:0 auto -150px;
+	/*margin-top:8px;
 	margin-bottom:6px;
-	margin-left:16px;
+	margin-left:16px;*/
 	width:220px;
 }
 .header .logo strong { position:absolute; top:-999em; left:-999em; width:0; height:0; font-size:0; line-height:0; text-indent:-999em; overflow:hidden; }
