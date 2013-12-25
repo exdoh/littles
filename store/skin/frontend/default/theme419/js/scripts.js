@@ -164,7 +164,7 @@ jQuery(document).ready(function() {
 		column.height(maxHeight);
 	}
 	if (jQuery('.container_24').width() > 750) { setHeight('.product-name-n');};
-	if (jQuery('.container_24').width() > 750) { setHeight('.product-name-s');};
+	//if (jQuery('.container_24').width() > 750) { setHeight('.product-name-s');};
 });
 
 
