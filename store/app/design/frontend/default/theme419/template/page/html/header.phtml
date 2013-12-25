@@ -56,6 +56,7 @@
 				
 				<div class="row-2">
 					<?php echo $this->getChildHtml('cart_header'); ?>
+					<?php echo $this->getChildHtml('store_language') ?>
 					
 				</div>
 				
@@ -68,7 +69,6 @@
 						<?php echo $this->getChildHtml('topLinks') ?>
 					</div>
 					<?php echo $this->getChildHtml('currency') ?>
-					<?php echo $this->getChildHtml('store_language') ?>
 					<?php echo $this->getChildHtml('topSearch') ?>
 				</div>
 				
@@ -83,7 +83,9 @@
 
 <?php $body_classes = str_replace (' ','',$this->getLayout()->createBlock("page/html")->getBodyClass());  $body_classes_active = "cms-index-index"; ?>
 <?php if($body_classes == $body_classes_active): ?> 
-<div class="container_24">
+
+<!--container_24editpage-->
+<!--<div class="container_24">
     <div class="grid_24">
         <div class="wrapper wrapper-indent">
             <?php echo $this->getChildHtml('slider_1') ?>
@@ -91,6 +93,6 @@
         </div>
         <?php echo $this->getChildHtml('banner_list') ?>
     </div>
-</div>
+</div>-->
 <?php endif;?>
 

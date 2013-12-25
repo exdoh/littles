@@ -130,7 +130,7 @@
 
     /* Note: Design for a width of 768px */
 
-    @media only screen and (min-width: 768px) and (max-width: 959px) {
+    /*@media only screen and (min-width: 768px) and (max-width: 959px) {
         .container_24                                  { width: 768px; }
         .grid_1,
 		.grid_2,
@@ -184,7 +184,7 @@
 		.container_24 .grid_23    			{ width: 726px; }
 		.container_24 .grid_24        		{ width: 758px; }
 		/* Prefix Extra Space >> 24 Columns */
-		.container_24 .prefix_1 {padding-left:32px;}
+		/*.container_24 .prefix_1 {padding-left:32px;}
 		.container_24 .prefix_2 {padding-left:64px;}
 		.container_24 .prefix_3 {padding-left:96px;}
 		.container_24 .prefix_4 {padding-left:128px;}
@@ -208,7 +208,7 @@
 		.container_24 .prefix_22 {padding-left:704px;}
 		.container_24 .prefix_23 {padding-left:736px;}
 		/* Suffix Extra Space >> 24 Columns */
-		.container_24 .suffix_1 {padding-right:32px;}
+		/*.container_24 .suffix_1 {padding-right:32px;}
 		.container_24 .suffix_2 {padding-right:64px;}
 		.container_24 .suffix_3 {padding-right:96px;}
 		.container_24 .suffix_4 {padding-right:128px;}
@@ -239,7 +239,7 @@
 
     /* Note: Design for a width of 320px */
 
-    @media only screen and (max-width: 767px) {
+    /*@media only screen and (max-width: 767px) {
         .container_24 { width: 310px; }
         .grid_1,
 		.grid_2,
@@ -291,7 +291,7 @@
 		.container_24 .grid_23,
 		.container_24 .grid_24{ width: 310px;}
 		/* Prefix Extra Space >> 12 Columns */
-		.container_24 .prefix_1,
+		/*.container_24 .prefix_1,
 		.container_24 .prefix_2,
 		.container_24 .prefix_3,
 		.container_24 .prefix_4,
@@ -315,7 +315,7 @@
 		.container_24 .prefix_22,
 		.container_24 .prefix_23{padding-left:0;}
 		/* Suffix Extra Space >> 12 Columns */
-		.container_24 .suffix_1,
+		/*.container_24 .suffix_1,
 		.container_24 .suffix_2,
 		.container_24 .suffix_3,
 		.container_24 .suffix_4,
@@ -346,7 +346,7 @@
 
     /* Note: Design for a width of 480px */
 
-    @media only screen and (min-width: 480px) and (max-width: 767px) {
+    /*@media only screen and (min-width: 480px) and (max-width: 767px) {
         .container_24 { width: 440px; }
         .grid_1,
 		.grid_2,
@@ -398,7 +398,7 @@
 		.container_24 .grid_23,
 		.container_24 .grid_24{ width: 440px; }
 		/* Prefix Extra Space >> 12 Columns */
-		.container_24 .prefix_1,
+		/*.container_24 .prefix_1,
 		.container_24 .prefix_2,
 		.container_24 .prefix_3,
 		.container_24 .prefix_4,
@@ -422,7 +422,7 @@
 		.container_24 .prefix_22,
 		.container_24 .prefix_23{padding-left:0;}
 		/* Suffix Extra Space >> 12 Columns */
-		.container_24 .suffix_1,
+		/*.container_24 .suffix_1,
 		.container_24 .suffix_2,
 		.container_24 .suffix_3,
 		.container_24 .suffix_4,

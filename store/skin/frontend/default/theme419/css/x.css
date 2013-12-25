@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+
+#nav {
+	width: 750px;
+	margin: 0 auto;
+	position: relative;
+	left: 9px;
+}
+
+#nav > li > a > span {
+	font-family: 'Amatic SC', cursive;
+	font-size: 22px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	color: #bbb;
+}
+
+.container_24.x-component {
+	width: 930px;
+	padding: 10px;
+	margin-top: 10px;
+}
+.container_24.x-component > .grid_24 {
+	margin: 0;
+	width: 930px;
+	
+}
+.container_24.x-component > .grid_24 > .wrapper {
+	margin-top: 0;
+	width: 930px;
+}
+.x-component {
+	background-color: white;
+	border-radius: 6px;
+}
+.block-content .actions > button > button.button {
+	position:relative;
+	top: 1px;
+}
+.copyright {
+	margin-top: 15px;
+	font-size: 12px;
+	color: #bbb;
+	margin-left: 15px;
+}

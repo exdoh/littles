@@ -70,7 +70,7 @@ jQuery(document).ready(function(){
 		jQuery('.header-button').not('.top-login').hover(
 			function(){
 				/*ListHeight = jQuery(this).find('ul').height();*/
-				jQuery(this).find('a').css({'background-color': '#00ada8'}).parent().find('ul').toggle()/*css({'display':'block','height':'0'}).stop().animate({height:ListHeight, opacity: 1}, 200)*/
+				jQuery(this).find('a').parent().find('ul').toggle()/*css({'display':'block','height':'0'}).stop().animate({height:ListHeight, opacity: 1}, 200)*/
 			},
 			function(){jQuery(this).find('a').css({'background-color': 'transparent'}).parent().find('ul').toggle()/*stop().animate({height:'0', opacity: 0}, 200, 
 				function() {
