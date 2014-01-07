@@ -43,3 +43,22 @@
 	color: #bbb;
 	margin-left: 15px;
 }
+
+.wrapper-brand {
+	background-color: #;
+}
+.block-head {
+	position:relative;
+	overflow:hidden;
+	text-align: center;
+	color: #999999;
+}
+.block-text-header {
+	margin : 22px 0 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.block-text-des {
+	font-size: 14px;
+	margin-right: 2px;
+}

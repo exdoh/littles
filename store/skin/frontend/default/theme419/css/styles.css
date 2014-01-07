@@ -876,35 +876,36 @@ tr.summary-details-excluded { font-style:italic; }
 /*========================================================================================== Sidebar =============================================================================== */
 /* ================================================================================================================================================================================== */
 
-.block { margin:0 0 20px; }
+.block { margin:0 0 20px; border:1px solid #ddd;border-radius: 6px; }
 .block.last_block {margin-bottom:0;}
 .block .block-title {
 	/*border-bottom: 2px dashed #cdd4e3;*/
-	padding: 6px 10px 4px;
+	padding: 10px 16px 12px;
 	/*margin-bottom:20px;*/
 	position:relative;
-	background: #00ACA7;
+	background: #F1F1F1;
+	border-top-right-radius: 6px;border-top-left-radius: 6px;
 }
 
 .block .block-title strong {
-	font-family: 'Vidaloka', serif;
-	font-size:18px;
-	line-height:30px;
-	color:#fff;
-	font-weight:normal;
-	margin-top: 2px;
+	/*font-family: 'Vidaloka', serif;*/
+	font-size:16px;
+	/*line-height:30px;*/
+	color:#666;
+	/*font-weight:normal;*/
+	/*margin-top: 2px;*/
 }
 .block .block-title strong span { }
 .block .block-title a { text-decoration:none !important; }
 .block .block-subtitle {
-	font-size:13px;
+	/*font-size:13px;*/
 	line-height:16px;
-	color:#00ACA7;
-	font-weight:normal;
-	text-transform:uppercase;
+	/*color:#00ACA7;*/
+	/*font-weight:normal;*/
+	/*text-transform:uppercase;*/
 	margin-bottom:14px;
 }
-.block .block-content {background:#f6faf2; color:#8a8989; padding-top: 20px; padding-left: 20px; padding-bottom: 20px; border-left: 2px solid #B3B3B3; border-right: 2px solid #B3B3B3; border-bottom: 2px solid #B3B3B3;}
+.block .block-content {background:#f6f6f6; color:#666666; padding-top: 20px; padding-left: 20px; padding-bottom: 20px;font-size:12px;border-bottom-right-radius: 6px;border-bottom-left-radius: 6px; /*border-left: 2px solid #B3B3B3; border-right: 2px solid #B3B3B3; border-bottom: 2px solid #B3B3B3;*/}
 .block .block-content li.item { padding: 20px 0; border-top:1px solid #e6e6e6; margin-right: 10px;}
 .block .block-content li.item:first-child{ border:none; padding-top:0;}
 .widget.widget-catalogsale-products .block ol li { padding:20px 0 20px 0;}
@@ -931,14 +932,14 @@ tr.summary-details-excluded { font-style:italic; }
 /******************************************************************************** Mini Products List ******************************************************************************/
 .mini-products-list li { padding:5px 0; }
 .mini-products-list .product-control-buttons { overflow:hidden; position:relative; margin-bottom:5px; }
-.mini-products-list .product-image { float:left; width:70px; border:1px solid #8AC04C; }
+.mini-products-list .product-image { /*float:left;*/ width:70px; border:1px solid #ddd;margin:0 auto; display: block;}
 .mini-products-list .product-details { padding-top:10px; overflow:hidden; }
 .mini-products-list .product-details h4 { font-size:1em; font-weight:bold; margin:0; }
 .mini-products-list .product-name {
-	float:left;
+	/*float:left;*/
 	margin-top:8px;
-	margin-left:10px;
-	width:148px;
+	/*margin-left:10px;*/
+	/*width:148px;*/
 }
 .block-cart .mini-products-list .product-name a:hover { color:#b3b3b3; }
 .block-cart .mini-products-list .product-name,
@@ -992,7 +993,7 @@ tr.summary-details-excluded { font-style:italic; }
 }
 .block-cart .amount a:hover { text-decoration:underline; }
 .block-cart .subtotal {}
-.block-cart .subtotal .price{ font-weight:bold; color:#000; padding-left:6px; }
+.block-cart .subtotal .price{ font-weight:bold; color:#00ACA7; padding-left:6px; }
 .block-cart .subtotal .label {}
 .block-cart .amount-2{ border-top:1px solid #e6e6e6; color:#000000; padding-top:16px; padding-bottom:17px;}
 .block-cart .amount-2 a{ text-decoration:none; font-weight:bold; color:#f68694;}
@@ -1002,7 +1003,7 @@ tr.summary-details-excluded { font-style:italic; }
 .block-cart .actions {border-bottom:1px solid #cdd4e3;padding-bottom:20px;margin-bottom:17px;}
 .block-cart .product-details { text-transform:uppercase;}
 .block-cart .product-details strong{ font-weight:normal; padding:0 0 0 3px;}
-.block-cart .block-title{ padding-bottom:8px;}
+.block-cart .block-title{ /*padding-bottom:8px;*/}
 
 .block-cart .product-details .price,
 .block-related .regular-price .price {color:#8AC04C; font-size:12px;font-weight:bold; font-family:Arial, Helvetica, sans-serifl;}
@@ -1350,7 +1351,7 @@ tr.summary-details-excluded { font-style:italic; }
 .price { white-space:nowrap !important; }
 
 .price-box {}
-.price-box .price { font-weight:bold; }
+.price-box .price { font-weight:normal; font-size:12px; }
 
 /* Regular price */
 .regular-price { /*float:left;*/ display:block; }
@@ -1375,8 +1376,9 @@ tr.summary-details-excluded { font-style:italic; }
 /* Minimal price (as low as) */
 .minimal-price {}
 .minimal-price .price-label {
-	font-weight:bold;
-	white-space:nowrap;
+	font-weight:normal;
+	/*white-space:nowrap;*/
+	font-size:12px;
 }
 
 .minimal-price-link {

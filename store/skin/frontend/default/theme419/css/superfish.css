@@ -54,7 +54,7 @@
 }
 #nav > li.sfHover > a span,
 #nav > li > a:hover span,
-#nav > li.active > a span {color:#13a1a3;border-bottom: 1px solid #13a1a3;}
+#nav > li.active > a span {color:#13a1a3;border-bottom: 1px solid #13a1a3;margin-bottom: -1px;}
 
 .sf-menu li.active,
 .sf-menu li.sfHover,
