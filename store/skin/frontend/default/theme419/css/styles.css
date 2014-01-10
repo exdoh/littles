@@ -94,7 +94,7 @@ ul,ol         { list-style:none; color: #999999;}
 .no-padding   { padding:0 !important; }
 .no-bg        { background:none !important; }
 
-.padding-r { padding-right:6px; background-color:#fff; border-top-left-radius: 6px; border-top-right-radius: 6px;}
+.padding-r { padding-right:6px; padding-bottom: 20px; background-color:#fff; border-radius: 6px;}
 .padding-l { padding-left:19px; }
 /* ======================================================================================= */
 
@@ -879,7 +879,7 @@ tr.summary-details-excluded { font-style:italic; }
 /*========================================================================================== Sidebar =============================================================================== */
 /* ================================================================================================================================================================================== */
 
-.block { margin:0 0 20px; border:1px solid #ddd;border-radius: 6px; }
+.block { margin:0 0 4px; border:1px solid #ddd;border-radius: 6px; }
 .block.last_block {margin-bottom:0;}
 .block .block-title {
 	/*border-bottom: 2px dashed #cdd4e3;*/
@@ -1011,7 +1011,7 @@ tr.summary-details-excluded { font-style:italic; }
 .block-cart .product-details .price,
 .block-related .regular-price .price {color:#8AC04C; font-size:12px;font-weight:bold; font-family:Arial, Helvetica, sans-serifl;}
 
-.block-cart .product-name a { text-decoration:none; line-height:18px; text-transform:none; display:inline-block;}
+.block-cart .product-name a { text-decoration:none; line-height:18px; text-transform:none; display:inline-block;color:#6e6e6e;}
 .block-cart .product-name a:hover { color:#000;}
 
 /**************************************************************************** Block: Wishlist ******************************************************************************************/
@@ -1764,7 +1764,7 @@ tr.summary-details-excluded { font-style:italic; }
 /* ======================================================================================= */
 
 /* Content Styles ================================================================= */
-.product-name { font-size:16px; font-weight:normal; text-align: center;}
+.product-name { font-size:12px; font-weight:normal; text-align: center;}
 h2.product-name {margin-bottom : 0;}
 .product-name a {}
 
