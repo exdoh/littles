@@ -12,7 +12,7 @@
 	font-size: 22px;
 	font-weight: normal;
 	letter-spacing: 2px;
-	color: #bbb;
+	color: #000;
 }
 
 .container_24.x-component {
@@ -43,15 +43,33 @@
 	color: #bbb;
 	margin-left: 15px;
 }
+.wrapper-page {
+	background-color: white;
+	padding: 16px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+.wrapper-page p {
+	line-height: 24px;
+	font-size: 15px;	
+}
 
+.wrapper-page ul{
+	margin-left: 30px;
+	line-height: 24px;
+}
 .wrapper-brand {
-	background-color: #;
+	background-color: white;
+	padding: 16px;
+	border-radius: 6px;
+	margin-right: 6px;
 }
 .block-head {
 	position:relative;
 	overflow:hidden;
 	text-align: center;
 	color: #999999;
+	margin-bottom: 16px;
 }
 .block-text-header {
 	margin : 22px 0 10px;
@@ -61,4 +79,67 @@
 .block-text-des {
 	font-size: 14px;
 	margin-right: 2px;
+}
+.cart-indent .actions > button.button span span {
+	width: 152px;
+}
+.content h2 {
+	font-family: Tahoma;
+	font-weight: bold; 
+}
+.item .product-name {
+	/*margin-left:42px;*/
+}
+.cart-price strong {
+	color: #999;
+}
+.indent-sw1 > .col-1 {
+	display: none;
+}
+.coming-soon {
+	color: white;
+	position: absolute;
+	left: 36%; 
+	z-index: 1;
+	border: 1px solid white;
+	padding: 18px;
+	border-radius: 6px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 45px;
+	font-weight: bold;
+	
+	margin-top: 106px;
+}
+.blursheet {
+	background-color: black;
+	width: 914px;
+	height: 261px;
+	position: absolute;
+	opacity: 0.5;
+}
+.more-views {
+	margin-left: 12px;
+}
+
+#webform_2_form {
+	background-color : white;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	padding: 10px 10px;
+}
+
+.fieldset {
+	background-color: white;
+	padding: 10px; 
+}
+#checkout-review-submit {
+	margin: 10px;
+}
+#checkout-shipping-method-load {
+	margin: 10px;
+}
+#shipping-method-buttons-container button {
+	margin-right: 10px;
+}
+	
 }
