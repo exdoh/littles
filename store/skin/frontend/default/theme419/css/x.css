@@ -75,10 +75,12 @@
 	margin : 22px 0 10px;
 	font-size: 18px;
 	font-weight: bold;
+	color: #00b6b8;
 }
 .block-text-des {
 	font-size: 14px;
 	margin-right: 2px;
+	color: #444;
 }
 .cart-indent .actions > button.button span span {
 	width: 152px;

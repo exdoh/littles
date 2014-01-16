@@ -1143,9 +1143,9 @@ tr.summary-details-excluded { font-style:italic; }
 	display:inline-block;
 	/*font-family: 'Arial', serif;*/
 	font-size:16px;
-	/*font-weight:bold;*/
+	font-weight:bold;
 	line-height:20px;
-	color:#999;
+	color:#444;
 	padding-top:8px;
 }
 .block-subscribe .input-box { float:left; margin-left:10px; width:215px; }
@@ -1381,7 +1381,7 @@ tr.summary-details-excluded { font-style:italic; }
 .special-price .price { font-weight:bold; }
 
 /* Minimal price (as low as) */
-.minimal-price {}
+.minimal-price {color:#00b6b8;}
 .minimal-price .price-label {
 	font-weight:normal;
 	/*white-space:nowrap;*/
@@ -2783,7 +2783,7 @@ h2.product-name {margin-bottom : 0;}
 .padd-footer{ padding-bottom:21px;}
 .footer h4 {
 	/*font-family: 'Arial', serif;*/
-	font-weight: normal;
+	font-weight: bold;
 	font-size:16px;
 	line-height:20px;
 	color:#000;
@@ -2795,7 +2795,7 @@ h2.product-name {margin-bottom : 0;}
 	/*background:url(../images/marker-2.gif) 0px 3px no-repeat;*/
 	padding:0 0 3px 0px;
 }
-.footer ul li a {display:inline-block; color:#999; font-size: 12px; text-decoration:none;}
+.footer ul li a {display:inline-block; color:#333; font-size: 12px; text-decoration:none;}
 .footer ul li a:hover{ color:#b3b3b3;}
 .footer-container .bottom-container { text-align:center; }
 .footer-cols-wrapper {position:relative; overflow:hidden;/*margin-bottom:15px;*/ padding-top:20px;padding-left:15px;padding-bottom:8px; border-top:2px solid #ccc; border-bottom:2px solid #ccc; margin-top: 30px; margin-bottom: 8px;}
@@ -2859,7 +2859,7 @@ span.opened {background-position: 0 0;}
 .banner-list li {float:left; margin-left:19px; padding:6px 0 8px 19px; border-left:1px dashed #cdd4e3;}
 .banner-list li:first-child {margin:0; border:0;}
 
-.col1-layout .products-grid li.item {width:204px; margin-right:19px; padding-right:18px; padding-bottom:5px;list-style-type:none;}
+.col1-layout .products-grid li.item {width:204px; margin-right:14px; /*padding-right:18px;*/ padding-bottom:5px;list-style-type:none;}
 .col1-layout .products-grid li.last {margin:0; padding-right:0;}
 .col1-layout .products-grid li.item .product-image {/*width:160px; height:160px;*/}
 
