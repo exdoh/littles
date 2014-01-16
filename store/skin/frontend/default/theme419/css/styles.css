@@ -608,7 +608,7 @@ tr.summary-details-excluded { font-style:italic; }
 .header .header-buttons {float:right;}
 .header .links { float:right; text-align:right; }
 .header .links li {float:left;}
-.header .links li a {display:inline-block;color:#bbb;font-size: 12px;}
+.header .links li a {display:inline-block;color:#000;font-size: 12px;}
 .header .links li a:hover {color:#b3b3b3;}
 .header .links  #FME-contact-form{ display:none;}
 .header .form-search { text-align:right; }
@@ -732,7 +732,7 @@ tr.summary-details-excluded { font-style:italic; }
 	background-position: center 28px;
 	font-size:12px;
 	line-height:21px;
-	color:#bbb;
+	color:#000;
 	text-transform:capitalize;
 	text-align:center;
 	padding: 4px 0 0;
@@ -820,7 +820,7 @@ tr.summary-details-excluded { font-style:italic; }
 	border:1px solid #f0f0f0;
 	border-radius: 4px;
 	background:url(../images/ic_cart_gray.png) 0 0 no-repeat #f9f9f9;
-	color: #bbb;
+	color: #000;
 	font-weight:normal;
 	padding: 9px 9px 9px 44px;
 	background-position: 10px;
@@ -2786,7 +2786,7 @@ h2.product-name {margin-bottom : 0;}
 	font-weight: normal;
 	font-size:16px;
 	line-height:20px;
-	color:#999;
+	color:#000;
 	position:relative;
 	margin-bottom:10px;
 }
@@ -3067,7 +3067,7 @@ span.opened {background-position: 0 0;}
 .featured_products > h2 {background-color: #f2f2f2; font-size: 16px; color: #666; border-top-left-radius: 6px; border-top-right-radius: 6px; padding: 14px 18px 16px;}
 
 .join_us { margin: 4px 0 10px ;}
-.join_us a { color: #999; font-size: 12px;}
+.join_us a { color: #000; font-size: 12px;}
 .join_us a:hover { color: #b3b3b3;}
 .logo_join_us {height: 20px;margin-right: 10px;}
 
