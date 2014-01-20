@@ -62,7 +62,7 @@ caption,th,td { vertical-align:top; text-align:left; font-weight:normal; }
 
 /* Content */
 strong        { font-weight:bold; }
-address       { font-style:normal;}
+address       { font-style:normal;color:#444;}
 cite          { font-style:normal; }
 q,
 blockquote    { quotes:none; }
@@ -95,7 +95,7 @@ ul,ol         { list-style:none; color: #999999;}
 .no-bg        { background:none !important; }
 
 .padding-r { padding-right:0px; padding-bottom: 20px; background-color:#fff; border-radius: 6px;}
-.padding-l { padding-left:19px; }
+.padding-l { /*padding-left:19px;*/ }
 /* ======================================================================================= */
 
 /* Layout ================================================================================ */
@@ -328,7 +328,7 @@ p.control input.radio { margin-right:6px; }
 .buttons-set-order {}
 
 .fieldset > p { margin-bottom:10px; }
-.fieldset .legend {font-weight:bold; font-size:12px; text-transform:uppercase; position:relative; padding-bottom:8px; color:#00aba6; }
+.fieldset .legend {font-weight:bold; font-size:14px; text-transform:uppercase; position:relative; padding-bottom:8px; color:#00aba6; }
 
 /* Form Validation */
 .validation-advice { clear:both; min-height:13px; margin:3px 0 0; font-size:10px; line-height:13px; color:#f00; }
@@ -466,7 +466,7 @@ div.alert button:hover{ cursor:pointer; background-position:0 -9px;}
 .toolbar-bottom { }
 
 /* Data Table */
-.data-table { width:100%; }
+.data-table { width:688px; }
 .data-table th { padding:12px 20px 12px 20px; border:1px solid #ececec; font-weight:bold; white-space:nowrap; color:#000; }
 .data-table td { padding:14px 20px 14px 20px; border:1px solid #ececec; }
 .data-table thead {  }
@@ -888,6 +888,7 @@ tr.summary-details-excluded { font-style:italic; }
 	position:relative;
 	background: #F1F1F1;
 	border-top-right-radius: 6px;border-top-left-radius: 6px;
+	margin-top: 12px;
 }
 
 .block .block-title strong {
@@ -2205,7 +2206,7 @@ h2.product-name {margin-bottom : 0;}
 /* Checkout Agreements */
 .checkout-agreements {}
 .checkout-agreements li { margin:10px 0; }
-.checkout-agreements .agreement-content { border:1px solid #ddd; background-color:#f6f6f6; padding:5px; height:10em; overflow:auto; }
+.checkout-agreements .agreement-content { border:1px solid #ddd; background-color:#f6f6f6; padding:5px; height:10em; overflow:auto; color: #000;}
 .checkout-agreements .agree { padding:6px; }
 
 /* Centinel */
@@ -2313,7 +2314,7 @@ h2.product-name {margin-bottom : 0;}
 .opc .active { }
 .opc .active .step-title { cursor:default; background:#00ACA7; }
 .opc .active .step-title .number { background:#fff; color:#3a3a3a; }
-.opc .active .step-title h2 { font-size:12px; line-height:15px; padding-top:7px; }
+.opc .active .step-title h2 { font-size:16px; line-height:15px; padding-top:7px; }
 
 #checkout-step-login {}
 #checkout-step-login h3{ font-size:12px; text-transform:uppercase; font-weight:normal; color:#00ACA7;}
@@ -2347,7 +2348,7 @@ h2.product-name {margin-bottom : 0;}
 .opc .name-middlename{width:144px;}
 .opc .name-middlename input{width:124px!important;}
 .opc .name-lastname input{}
-.opc .sp-methods dt{padding-bottom:12px;}
+.opc .sp-methods dt{padding-bottom:5px;}
 .opc .sp-methods dt label{ color:#00ACA7;}
 #checkout-shipping-method-load .sp-methods dt{ font-size:12px; text-transform:uppercase; color:#00ACA7;}
 .opc .form-list{margin:0 0 12px;}
@@ -2477,7 +2478,7 @@ h2.product-name {margin-bottom : 0;}
 .my-account .title-buttons .link-rss { float:none; margin:0; }
 .my-account .pager {margin-bottom:10px;}
 .my-account .sub-title {font-size:12px; padding:10px 0;}
-.my-account #form-validate .fieldset {margin:25px 0px;}
+.my-account #form-validate .fieldset {/*margin:25px 0px;*/}
 .my-account table tr td {vertical-align:middle;}
 .cart-empty {padding:10px 10px;background-color: white;border-bottom-left-radius: 6px;border-bottom-right-radius: 6px;}
 .my-account .addresses-list ol li {padding-bottom:15px;}
@@ -2494,7 +2495,7 @@ h2.product-name {margin-bottom : 0;}
 .my-account .col2-set .col-2 { float:right; width:47%; }
 .my-account .data-table {margin-bottom:10px;}
 .my-account .data-table th,
-.my-account .data-table td {padding:10px 12px;}
+.my-account .data-table td {padding:10px 12px;font-size: 12px;}
 .my-account .data-table .price-excl-tax,
 .my-account .data-table .price { display:inline; }
 
@@ -2506,13 +2507,13 @@ h2.product-name {margin-bottom : 0;}
 
 
 /********** < Dashboard */
-.dashboard {}
-.dashboard .welcome-msg {}
+.dashboard {background-color: white;border-radius: 6px;}
+.dashboard .welcome-msg {margin-left: 10px;font-size: 14px;}
 .dashboard .welcome-msg .hello{margin-bottom:10px;}
 .dashboard .data-table {}
 .dashboard .col2-set{padding:10px 0 15px;}
 .dashboard .box-title,
-.dashboard .box-head{width:100%; overflow:hidden; margin:10px 0 0; }
+.dashboard .box-head{width:100%; overflow:hidden; margin:10px 0 0; margin-left: 10px;}
 .dashboard .box-title {border-bottom:1px solid #D3D3D3; margin-bottom:5px;}
 .dashboard .box-title h2,
 .dashboard .box-title h3,
@@ -2525,11 +2526,11 @@ h2.product-name {margin-bottom : 0;}
 .dashboard .box-head a{float:right;}
 
 /* Block: Recent Orders */
-.dashboard .box-recent { margin:10px 0; }
+.dashboard .box-recent { margin:0 22px 0 10px; }
 .dashboard .box-head a {margin-bottom:10px; display:inline-block;}
 /* Block: Account Information */
 .dashboard .box-info {}
-.dashboard .box-info  .col2-set {margin-bottom:10px;}
+.dashboard .box-info  .col2-set {margin-bottom:10px 10px;}
 .dashboard .box-info a {display:inline-block; margin-bottom:10px;}
 /* Block: Reviews */
 .dashboard .number { float:left; font-size:11px;font-weight:bold;line-height:1;margin:3px 10px 0 0;display:block;width:18px;height:18px;text-align:center;border:1px solid #6a6a6a;line-height:17px}
@@ -2551,7 +2552,7 @@ h2.product-name {margin-bottom : 0;}
 .block-order-return .form-alt li {margin-bottom:0px;overflow:inherit;}
 .block-order-return .input-box.btn{ padding-top:18px;}
 /* Address Book */
-.addresses-list {}
+.addresses-list {   background-color: #FFFFFF;padding: 10px;}
 .addresses-list-additional li.item {}
 
 /* Order View */
@@ -2569,9 +2570,9 @@ h2.product-name {margin-bottom : 0;}
 .order-info-box h2{ font-size:12px; text-transform:uppercase; font-weight:normal; color:#f68694;}
 .order-items h2{ font-size:12px; text-transform:uppercase; font-weight:normal; color:#f68694;}
 .order-items { margin-top:15px; width:100%; overflow-x:auto; }
-.col-1.addresses-primary h2{ font-size:14px; text-transform:uppercase; font-weight:normal; color:#333;}
+.col-1.addresses-primary h2{ font-size:14px; text-transform:uppercase; font-weight:bold; color:#333;}
 .col-1.addresses-primary h3{ font-size:12px; text-transform:uppercase; font-weight:normal; color:#f68694;}
-.col-2.addresses-additional h2{ font-size:14px; text-transform:uppercase; font-weight:normal; color:#333;}
+.col-2.addresses-additional h2{ font-size:14px; text-transform:uppercase; font-weight:bold; color:#333;}
 .order-additional { margin:15px 0; }
 /* Order Gift Message */
 .gift-message dt strong { color:#666; }

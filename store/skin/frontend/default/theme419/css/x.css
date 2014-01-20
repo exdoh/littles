@@ -82,15 +82,25 @@
 	margin-right: 2px;
 	color: #444;
 }
+.block-text-con {
+	text-align: left;
+	color :#000000;
+	font-size: 14px;
+}
+.block-text-con a {
+	color : #0f75bd;
+	font-weight: bold;
+}
+	
 .cart-indent .actions > button.button span span {
 	width: 152px;
+}
+.cart-indent .product-name {
+	margin-left:42px;
 }
 .content h2 {
 	font-family: Tahoma;
 	font-weight: bold; 
-}
-.item .product-name {
-	/*margin-left:42px;*/
 }
 .cart-price strong {
 	color: #999;
@@ -143,5 +153,14 @@
 #shipping-method-buttons-container button {
 	margin-right: 10px;
 }
-	
+#co-payment-form fieldset{
+	margin-top: 14px;
+	margin-left: 14px;	
+}	
+.sp-methods{}
+.sp-methods dd {
+	margin-bottom: 20px;
+}
+.product-name-s .product-name {
+	margin-left: 1px;
 }
