@@ -111,7 +111,7 @@
 .coming-soon {
 	color: white;
 	position: absolute;
-	left: 36%; 
+	left: 38%; 
 	z-index: 1;
 	border: 1px solid white;
 	padding: 18px;
@@ -163,4 +163,22 @@
 }
 .product-name-s .product-name {
 	margin-left: 1px;
+}
+.my-account {
+	background-color: white;
+	border-radius: 6px;
+	margin-top: 23px;
+}
+.recurring-profiles {
+	padding: 10px;
+}
+
+.my-account p {
+	padding:10px;
+}
+.box {
+	margin-left: 10px;
+}
+.checkout-onepage-success p {
+	magin-left: 1px;
 }
