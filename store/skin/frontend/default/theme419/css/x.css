@@ -1,10 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC);
 
 #nav {
-	width: 750px;
-	margin: 0 auto;
+	width: 100%;
+	/*margin: 0 auto;
 	position: relative;
-	left: 9px;
+	left: 9px;*/
+	text-align: center;
 }
 
 #nav > li > a > span {
@@ -181,4 +182,20 @@
 }
 .checkout-onepage-success p {
 	magin-left: 1px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 959px) {
+	#nav > li > a > span {
+		font-size: 18px;
+		text-align: center;
+	}
+	.sf-menu li {
+		width: 180px;
+	}
+	.sf-menu > li > a > span {
+		margin: 0;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
 }

@@ -589,7 +589,7 @@ tr.summary-details-excluded { font-style:italic; }
 	width:196px;
 }
 .header .logo strong { position:absolute; top:-999em; left:-999em; width:0; height:0; font-size:0; line-height:0; text-indent:-999em; overflow:hidden; }
-.header h1.logo { margin:10px auto 0; padding:0; }
+.header h1.logo { margin:10px auto 0; padding:0; position: absolute; left: 40%}
 .header .logo img {max-width:100%; height:auto;}
 
 /* Header ================================================================================ */
@@ -1132,7 +1132,7 @@ tr.summary-details-excluded { font-style:italic; }
 /* Block: Tags */
 
 /************************************************************************* Block: Subscribe ****************************************************************************************/
-.block-subscribe {/*padding-top:10px;*/padding-left:30px;padding-right:10px;padding-bottom: 8px;width:940px;background-color:#ddd;border-bottom-left-radius:8px;border-bottom-right-radius:8px; }
+.block-subscribe {/*padding-top:10px;*/padding-left:30px;padding-right:10px;padding-bottom: 8px;/*width:940px*/;background-color:#ddd;border-bottom-left-radius:8px;border-bottom-right-radius:8px; }
 .block-subscribe .block-content { 
 	/*border-top:2px solid #DC706C;*/ 
 	/*border-bottom:2px dashed #cdd4e3;*/ 
