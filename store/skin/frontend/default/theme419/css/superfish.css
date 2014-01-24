@@ -70,7 +70,7 @@
 	background: white;
 }
 
-.sf-menu li li {border-bottom:1px solid #f6f6f6;}
+.sf-menu li li {/*border-bottom:1px solid #f6f6f6;*/}
 .sf-menu li li.last { border-bottom:none; }
 
 .sf-menu li li.sfHover,
@@ -79,7 +79,8 @@
 	float:none;
 	border-right:none;
 	position:relative;
-	padding: 6px 10px 6px;
+	padding: 6px 0 6px 20px;
+	margin-right: 20px;
 }
 .sf-menu li li a,
 .sf-menu li.sfHover li a,
@@ -91,7 +92,7 @@
 	padding:0;
 }
 .sf-menu li li a {display:block;}
-.sf-menu li li.parent > a {background:url(../images/marker-1.gif) right 5px no-repeat; }
+.sf-menu li li.parent > a {/*background:url(../images/marker-1.gif) right 5px no-repeat;*/ }
 .sf-menu li li > a:hover,
 .sf-menu li li.sfHover > a,
 .sf-menu li li.active > a {color:#b3b3b3;}
@@ -170,7 +171,7 @@ ul.sf-menu li li li.sfHover ul {
 	/* main nav */
 	.sf-menu {
 		display: none; /* visibility will be toggled with jquery */
-		background:#3a3a3a;
+		background:#ddd;
 		clear: both;
 		position: relative;
 		top: auto;

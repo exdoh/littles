@@ -197,5 +197,70 @@
 		padding-left: 0px;
 		padding-right: 0px;
 	}
+	.products-grid .actions {
+		margin: 10px auto 0;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.coming-soon {
+		margin-top: 72px;
+		left: 34%;
+	}
 	
+	.category-view-row{text-align: center;}
+	
+	.blursheet {
+		width: 720px;
+		height: 204px;
+	}
+	.products-grid li.item.first {
+		margin-left: 0px;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.header h1.logo {
+		position : static;
+		padding-bottom: 16px;
+	}
+	
+	
+	.coming-soon {
+		margin-top: 30px;
+		left: 22%;
+	}
+	.blursheet {
+		width: 402px;
+		height: 114px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.header h1.logo {
+		position : static;
+		padding-bottom: 16px;
+	}
+	.products-grid .product-name a, .products-list .product-name a {
+		font-size: 10px;
+	}
+	.coming-soon {
+		margin-top: 20px;
+		left: 34%;
+		font-size: 16px;
+		padding: 10px;
+	}
+	.blursheet {
+		width: 272px;
+		height: 78px;
+	}
+	.product-name-s {
+		width: 170px;
+	}
+	.std ul, .std ol, .std dl, .std p, .std address, .std blockquote {
+		margin: 0;
+	}
+	#nav {
+		text-align: left;
+	}
+	.item {
+		margin-left: 14px;
+	}
 }

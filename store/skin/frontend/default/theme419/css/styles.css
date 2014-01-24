@@ -460,7 +460,7 @@ div.alert button:hover{ cursor:pointer; background-position:0 -9px;}
 	padding: 10px 11px;
 	background-color: #fafafa;
 	border-top-left-radius: 6px; border-top-right-radius: 6px;
-	width : 688px;
+	/*width : 688px;*/
 }
 .toolbar .sorter { color:#8A8989; padding: 0 0 0 20px; }
 .toolbar-bottom { }
@@ -519,7 +519,7 @@ tr.summary-details-excluded { font-style:italic; }
 .std p,
 .std address,
 .std blockquote { margin:0 0 1em; padding:0; }
-.std ul { list-style:disc outside; padding-left:2em; }
+.std ul { list-style:disc outside; padding-left:1em; }
 .std ol { list-style:decimal outside; padding-left:1.5em; }
 .std ul ul { list-style-type:circle; }
 .std ul ul,
@@ -1196,7 +1196,7 @@ tr.summary-details-excluded { font-style:italic; }
 /****************************************************************************************** View Type: Grid ***************************************************************************/
 .col2-left-layout .products-grid,
 .col2-right-layout .products-grid { margin:0 auto; }
-.col1-layout .products-grid { width:950px; margin:0 auto; }
+.col1-layout .products-grid { /*width:950px;*/ margin:0 auto; }
 
 .products-grid {position:relative; margin-bottom:20px !important; }
 .price-box.map-info a { text-decoration:none; margin-top:5px; color:#f68694; }
@@ -2877,8 +2877,9 @@ span.opened {background-position: 0 0;}
 .banners-block {
 	position:relative;
 	overflow:hidden;
-	float:right;
-	width: 300px;
+	/*float:right;
+	width: 300px;*/
+	padding-left: 8px;
 }
 
 .main-banner {
