@@ -8,7 +8,7 @@ jQuery(document).ready(function(){
 	});
 
 	if (jQuery('.container_24').width() < 450) {
-		jQuery('.sf-menu').removeClass('sf-js-enabled').find('li.parent').append('<strong></strong>');
+		jQuery('.sf-menu').removeClass('sf-js-enabled').find('li.parent').prepend('<strong></strong>');
 		jQuery('.sf-menu li.parent strong').on("click", function(){
 			if (jQuery(this).attr('class') == 'opened') { jQuery(this).removeClass().parent('li.parent').find('> ul').slideToggle(); } 
 				else {

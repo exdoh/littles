@@ -256,6 +256,29 @@ ul.sf-menu li li li.sfHover ul {
 	#menu-icon:hover,
 	#menu-icon.active {background-color: #8ac14c; border-bottom: 5px solid #fff;}
 }
+@media only screen and (max-width: 480px) {
+	.sf-menu li {
+		/*float:left;*/
+		text-align:left;
+		position:relative;
+		/*border-right:1px solid #edeef4;*/
+		z-index:99;
+		margin-right: 8px;  
+		display: block;
+	}
+	.sf-menu li strong {
+		position:absolute;
+		display:inline-block;
+		background:url(../images/toogle-button2.png) center -54px no-repeat;
+		top: 8px;
+		right: 0px;
+		height: 24px;
+		width: 24px;
+	}
+	.sf-menu li li a {
+		display: inline;
+	}
+}
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	#menu-icon {
 		cursor: pointer;
