@@ -239,7 +239,7 @@ p.control input.radio { margin-right:6px; }
 .form-list li.wide .input-box { width:535px; }
 .form-list li.wide input.input-text { width:529px; }
 .form-list li.wide textarea { width:529px; }
-.form-list li.wide select { }
+.form-list li.wide select {width: 100% }
 .form-list li.additional-row { border-top:1px solid #ccc; margin-top:10px; padding-top:7px; }
 .form-list li.additional-row .btn-remove { float:right; margin:5px 0 0; }
 .form-list .input-range input.input-text { width:74px; }
@@ -466,7 +466,7 @@ div.alert button:hover{ cursor:pointer; background-position:0 -9px;}
 .toolbar-bottom { }
 
 /* Data Table */
-.data-table { width:688px; }
+.data-table { width:100%; }
 .data-table th { padding:12px 20px 12px 20px; border:1px solid #ececec; font-weight:bold; white-space:nowrap; color:#000; font-size: 12px;}
 .data-table td { padding:14px 24px 12px 20px; border:1px solid #ececec; font-size: 12px;}
 .data-table thead {  }
@@ -879,7 +879,7 @@ tr.summary-details-excluded { font-style:italic; }
 /*========================================================================================== Sidebar =============================================================================== */
 /* ================================================================================================================================================================================== */
 
-.block { margin:0 0 4px; border:1px solid #ddd;border-radius: 6px; margin-top: 10px;}
+.block { margin:0 0 4px; border:1px solid #ddd;border-radius: 6px; /*margin-top: 10px;*/}
 .block.last_block {margin-bottom:0;}
 .block .block-title {
 	/*border-bottom: 2px dashed #cdd4e3;*/
@@ -1167,7 +1167,7 @@ tr.summary-details-excluded { font-style:italic; }
 .block-reorder .block-subtitle {}
 .block-reorder li { padding:5px 0; }
 .block-reorder input.checkbox { float:left; margin:5px 0 0; }
-.block-reorder .product-name { margin-left:20px; }
+.block-reorder .product-name { /*margin-left:20px;*/width:100%; }
 .block-reorder .actions {}
 .block-reorder .actions a {}
 .block-reorder .actions a:hover { }

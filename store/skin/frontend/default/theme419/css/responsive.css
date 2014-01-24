@@ -21,7 +21,7 @@
 	.cart .totals table td { font-size:11px; padding: 15px 10px; }
 	.cart .totals table td+td { padding: 15px 10px; }
 	.cart .totals .price { font-size:18px; }
-	.block-cart .mini-products-list .product-name {width:100px;}
+	.block-cart .mini-products-list .product-name {width:100%;}
 	
 	.header-button:hover > a, .top-login:hover ul li a {background-color: #00ada8; border-color:#00ada8;}
 	
