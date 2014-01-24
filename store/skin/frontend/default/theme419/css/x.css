@@ -216,6 +216,10 @@
 	.products-grid li.item.first {
 		margin-left: 0px;
 	}
+	
+	#checkout-review-submit{
+		padding-bottom: 10px;
+	}
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.header h1.logo {
