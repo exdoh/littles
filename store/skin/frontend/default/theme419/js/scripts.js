@@ -95,7 +95,20 @@ jQuery(document).ready(function(){
 	};
 	
 	qwe = jQuery('.lang-list ul li span').text();
-	jQuery('.lang-list > a').text(qwe);
+	
+	//edit swicth lang//
+	if(qwe.trim() == "th")
+	{
+	    new_qwe = 'ไทย';
+	    jQuery('#switch_lang_th_TH > a').html('ไทย');
+        jQuery('#switch_lang_en_US > a').html('อังกฤษ');
+	} else if(qwe.trim() == "en") {
+	    new_qwe = 'Eng';
+	    jQuery('#switch_lang_th_TH > a').html('Thai');
+	    jQuery('#switch_lang_en_US > a').html('Eng');
+	}
+	
+	jQuery('.lang-list > a').text(new_qwe);
 });
 
 /*************************************************************************************************************back-top*****************************************************************************/

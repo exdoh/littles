@@ -166,7 +166,7 @@ select.multiselect option:last-child { border-bottom:0; }
 textarea { overflow:auto; }
 input.radio { margin-right:3px; }
 input.checkbox { margin-right:3px; }
-input.qty { /*color:#f68694;*/ width:40px !important; }
+input.qty { /*color:#f68694;*/ width:40px !important; text-align: center;}
 button.button::-moz-focus-inner { padding:0; border:0; } /* FF Fix */
 button.button { -webkit-border-fit:lines; } /* <- Safari & Google Chrome Fix */
 button.button { 
@@ -1691,7 +1691,7 @@ tr.summary-details-excluded { font-style:italic; }
 .product-view .box-description {margin: 0 10px 0 10px;}
 
 /* Block: Additional */
-.product-view .box-additional {}
+.product-view .box-additional {display: none;}
 .product-view .box-additional .data-table td.label, 
 .product-view .box-additional .data-table th.label {padding-left:10px;}
 

@@ -532,7 +532,7 @@
 	.banner-list {display:none;}
 	.sales-guest-form .block-content .form-alt  .input-box {text-align:left !important;}
 	#checkout-step-login .col-2 .form-list input.input-text {width:270px;}
-	.video_id {float:left;}
+	.video_id {float:left;margin-left: 5px;}
 	
 	.logo-cat{display: block;text-align: center;width: 100%; margin-bottom: 10px;}
 	
@@ -657,7 +657,7 @@
 	.main-banner {height:185px;width:308px;margin:0 auto 10px !important;}
 	.main-banner img {float:right;}
 	.main-banner.num-3 img {float:left;}
-	.video_id {float:left;}
+	.video_id {margin-left: 70px;}
 	.one-colum {margin-right: 0px;}
 }
 @media only screen and (max-width: 320px) {

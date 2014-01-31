@@ -219,7 +219,7 @@ ul.sf-menu li li li.sfHover ul {
 		
 	}
 	.sf-menu > li.parent > a > span,
-	.sf-menu li li.parent > a {background:none;}
+	.sf-menu li li.parent > a {background:none;width:160px;}
 	.sf-menu li strong {
 		position:absolute;
 		display:block;
